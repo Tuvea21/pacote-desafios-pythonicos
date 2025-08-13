@@ -15,7 +15,9 @@ onde todas as instancias de stra foram substituidas por strb.
 
 def fix_start(s):
     # +++ SUA SOLUÇÃO +++
-    return
+    primeiro = s[0]
+    resto = s[1:].replace(primeiro, '*')
+    return primeiro + resto
 
 
 # --- Daqui para baixo são apenas códigos auxiliáries de teste. ---
